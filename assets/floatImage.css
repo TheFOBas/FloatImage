@@ -1,6 +1,5 @@
 .ipWidget-Image.floatWidget {
     width: 50%;
-    margin: 15px;
 }
 .ipWidget-Image.floatWidget img {
     max-width: 100%;
@@ -9,10 +8,15 @@
     display: none;
 }
 .ipWidget-Image.floatWidget.float-right {
+    margin: 0 0 15px 15px;
     float: right;
 }
 .ipWidget-Image.floatWidget.float-left{
+    margin: 0 15px 0 15px;
     float: left;
+}
+.ipHasAdminPanel .ipWidget-Image.floatWidget{
+    margin-top: 15px;
 }
 .ipsFloatImagePlaceholder {
     background-color: transparent;
