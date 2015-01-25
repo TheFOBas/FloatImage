@@ -1,0 +1,29 @@
+.ipWidget-Image.floatWidget {
+    width: 50%;
+    margin: 15px;
+}
+.ipWidget-Image.floatWidget img {
+    max-width: 100%;
+}
+.ipWidget-Image.floatWidget + .ipWidget-Text:before{
+    display: none;
+}
+.ipWidget-Image.floatWidget.float-right {
+    float: right;
+}
+.ipWidget-Image.floatWidget.float-left{
+    float: left;
+}
+.ipsFloatImagePlaceholder {
+    background-color: transparent;
+    z-index: 1;
+}
+.floatImagePlaceholder ._marker {
+    height: 100%;
+    width: 100%;
+}
+.floatImagePlaceholder._hover ._marker {
+    background: #7ecefd;
+    display: block;
+    outline: #019bd4 solid 1px;
+}
