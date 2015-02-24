@@ -25,6 +25,10 @@ class Event {
         if ($widgetData){
             ipStorage()->set('FloatImage', 'widget_'.$newId, $widgetData);
         }
+        $floatImageWidth = ipStorage()->get('FloatImageWidth', 'widget_'.$oldId, false);
+        if ($floatImageWidth){
+            ipStorage()->set('FloatImageWidth', 'widget_'.$newId, $floatImageWidth);
+        }
     }
 
 } 
